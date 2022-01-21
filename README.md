@@ -18,7 +18,7 @@ Please change the source dataset and the target dataset manually.
 
 ## Hyperparameter settings
 
-For GraphSAGE, GAT, DANE, UDAGCN, we conduct carefully grid search as follows:
+For GraphSAGE, GAT, DANE, UDAGCN, we conduct carefully grid search as follows.(In GraphSAGE, the sample2 and sample1 in the tables represents the node sample number of the second and the first layer, respectively.)
 
 | Model     | tuning parameter                        |                                                              |
 | --------- | --------------------------------------- | ------------------------------------------------------------ |
