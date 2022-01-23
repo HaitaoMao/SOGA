@@ -27,7 +27,7 @@ For GraphSAGE, GAT, DANE, UDAGCN, we conduct carefully grid search as follows.(I
 | DANE      | SINGLE（weight on the adversarial loss) | [1, 2, 3, 4, 5]                                              |
 | UDAGCN    | path_len                                | [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]                              |
 
-The best hyperparameter on the macro-AUC score are:
+The best hyperparameter on the macro-F1 score are:
 
 | Model     | tuning parameter                               | DBLP->ACM | ACM->DBLP | ACM-D->ACM-S | ACM-S->ACM-D |
 | --------- | ---------------------------------------------- | --------- | --------- | ------------ | ------------ |
@@ -36,7 +36,7 @@ The best hyperparameter on the macro-AUC score are:
 | DANE      | LAMBDA_SINGLE（weight on the adversarial loss) | 5         | 3         | 5            | 5            |
 | UDAGCN    | path_len                                       | 10        | 10        | 5            | 4            |
 
-
+The best hyperparameter on the macro-AUC score are:
 
 | Model     | tuning parameter                        | DBLP->ACM | ACM->DBLP | ACM-D->ACM-S | ACM-S->ACM-D |
 | --------- | --------------------------------------- | --------- | --------- | ------------ | ------------ |
