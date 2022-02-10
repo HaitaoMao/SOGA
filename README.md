@@ -1,6 +1,6 @@
 # SOGA: Source Free Unsupervised Graph Domain Adaptation
 
-This repository is the official implementation of Source Free Unsupervised Graph Domain Adaptation. 
+This repository is the official implementation of SOGA: Source Free Unsupervised Graph Domain Adaptation. 
 
 ## Abstract
 
